@@ -234,7 +234,6 @@ public class OpenVPNClient extends OpenVPNClientBase implements OnRequestPermiss
 						case 0:
 							list2=new ArrayList<String>();
 							list2.add("GTM-Config");
-							list2.add("GTM-fbig");
 
 							adapter2=new ArrayAdapter<String>(OpenVPNClient.this,
 															  android.R.layout.simple_dropdown_item_1line,list2);
