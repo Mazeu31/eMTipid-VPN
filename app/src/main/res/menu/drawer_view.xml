@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/cupdate"
+			android:title="Check Update"
+			android:icon="@drawable/ic_launcher"/>
+		<item
+			android:id="@+id/settings"
+			android:title="Settings"
+			android:icon="@drawable/ic_launcher"/>
+		<item
+			android:id="@+id/trash"
+			android:title="Trash"
+			android:icon="@drawable/ic_launcher"/>
+		<item
+			android:id="@+id/logout"
+			android:title="Logout"
+			android:icon="@drawable/ic_launcher"/>
+	</group>
+
+    <item android:title="Glitch">
+        <menu>
+            <item
+                android:id="@id/exit_partial"
+                android:icon="@drawable/ic_launcher"
+                android:title="Minimize"/>
+            <item
+                android:id="@id/exit_full"
+                android:icon="@drawable/ic_launcher"
+                android:title="Exit"/>
+        </menu>
+    </item>
+
+</menu>
+
+
