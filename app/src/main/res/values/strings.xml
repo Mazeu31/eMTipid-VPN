@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="network_prompt">Sim Network</string>
+	<string name="network_prompt">SIM NETWORK</string>
 	<string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
 <string name="status_bar_notification_info_overflow">999+</string>
