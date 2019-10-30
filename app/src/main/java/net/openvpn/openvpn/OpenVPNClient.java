@@ -179,7 +179,7 @@ public class OpenVPNClient extends OpenVPNClientBase implements OnRequestPermiss
 		AppUpdater appUpdater = new AppUpdater(this);
 		appUpdater.setDisplay(Display.DIALOG);
 		appUpdater.setUpdateFrom(UpdateFrom.JSON);
-		appUpdater.setUpdateJSON("https://raw.githubusercontent.com/Mazeu31/Update/master/update.json");
+		appUpdater.setUpdateJSON("https://https://raw.githubusercontent.com/Mazeu31/eMTipid-VPN/master/app/updates.json");
 		appUpdater.setTitleOnUpdateAvailable("Update available");
 		appUpdater.setContentOnUpdateAvailable("Check out the latest version available of my app!");
 		appUpdater.setTitleOnUpdateNotAvailable("Update not available");
@@ -300,7 +300,7 @@ public class OpenVPNClient extends OpenVPNClientBase implements OnRequestPermiss
 	AppUpdater appUpdater = new AppUpdater(this);
 	appUpdater.setDisplay(Display.DIALOG);
 	appUpdater.setUpdateFrom(UpdateFrom.JSON);
-		appUpdater.setUpdateJSON("https://raw.githubusercontent.com/Mazeu31/Update/master/update.json");
+		appUpdater.setUpdateJSON("https://https://raw.githubusercontent.com/Mazeu31/eMTipid-VPN/master/app/updates.json");
 	appUpdater.setTitleOnUpdateAvailable("Update available");
 	appUpdater.setContentOnUpdateAvailable("Check out the latest version available of my app!");
 	appUpdater.setTitleOnUpdateNotAvailable("Update not available");
